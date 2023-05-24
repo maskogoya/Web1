@@ -1,0 +1,91 @@
+header{
+    background: #038ade;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    
+}
+aside{
+    flex: 20%;
+    background: #222;
+    float: left;
+    width: 250px;
+    height: 560px;
+    margin-right: 10px ;
+}
+section.main{
+    flex: 80%;
+    background: #fff;
+    min-height: 530px;
+    padding: 15px 20px;
+    text-align: left;
+    z-index: -1;
+}
+footer{
+    background: #ccc;
+    color: #555;
+    padding: 20px;
+    text-align: center;
+
+}
+@media (max-width: 700px) {
+    .container{
+        flex-direction: column;
+    }
+}
+.menu{
+    padding: 0;
+}
+.menu li{
+    border-bottom: 1px dotted #444;
+}
+.menu a{
+    display: block;
+    padding: 20px 20px;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: #000;
+}
+/* conten */
+.judul{
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.table{
+    /* width: 100%; */
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.table th, .table td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.table th{
+    background: #eee;
+}
+.tombol{
+    display: inline-block;
+    max-width: 150px;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    background: #038ade;
+    cursor: pointer;
+}
+.tomboledit, .tombolhapus{
+    padding: 10px 15px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+.tombolhapus{
+    background: #fc4c4c;
+}
+.tomboledit{
+    background: #038ade;
+}

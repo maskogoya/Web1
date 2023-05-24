@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 10;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  nav {
+    background-color: #2e02f3;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: center;
+    
+  }
+  nav ul, li{
+    margin-right: 50px;
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+  }
+  nav a:hover{
+
+    opacity: 0.9;
+  }
+  header {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+
+  .box1 {
+    width: 70%;
+    float: left;
+  }
+
+  .box1 p{
+    font-size: 20px;
+  }
+  .box1 h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .box2{
+    padding: 20px;
+    text-align: end;
+  }
+
+  .box2 img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+  }
+
+  nav .fa {
+    display: none;
+  }
+
+  .clear{
+    clear: both;
+  }
+  section {
+    width: 80%;
+    margin: auto;
+  }
+  section h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  a:link, a:visited {
+    background-color: #1730eb;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+  }
+  
+  /* a:hover, a:active {
+    background-color: rgb(4, 0, 255);
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+  
+  } */
+
+  section #asrama{
+   height: 300px;
+   width: 400px;
+   border-radius: 5px;
+   float: left;
+   margin-right: 20px;
+  }
+  .fasilitas{
+    margin-top: 100px;
+  }
+  section h3{
+    margin-bottom: 10px;
+  }
+  section p{
+    margin-top: 10px;
+  }
+ 
+  /* galeri fasilitas */
+  div.galery {
+    
+    margin: 10px 10px 0 0;
+    width: 330px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    float: left;
+    justify-content: center;
+  }
+
+  div.galery .foto{
+    margin: auto;
+    width: 330px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+#kontak form{
+  margin-top: 20px;
+}
+
+#kontak form label{
+  display: inline-block;
+margin: 10px 10px;
+}
+form input[type=text]{
+  width: 30%;
+  margin-top: 20px;
+  height: 30px;
+  margin-left: 10px;
+}
+form input[type=email]{
+  width: 30%;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+form input[type=halaman]{
+  width: 30%;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#kontak textarea {
+  display: inline-block;
+  width: 30%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+#kontak form button{
+  margin-top: 50px;
+  display: block;
+  width: 100px;
+  height: 30px;
+}
+.lokasi{
+  margin-top: 50px;
+}
+
+footer{
+  margin-top: 50px;
+  height: 50px;
+  background-color: #121dec;
+  text-align: center;
+}
+footer p{
+  display: inline-block;
+  margin-top: 20px;
+  color: rgba(140, 150, 153, 0.87);
+}
+  @media (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  } 
+
+  

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+header{
+    background: #038ade;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    
+}
+aside{
+    display: block;
+    flex: 20%;
+    background: #222;
+    float: left;
+    width: 250px;
+    height: 560px;
+    margin-right: 4px ;
+}
+.clear{
+    clear: both;
+}
+section.main{
+    width: 70%;
+    float: left;
+    flex: 80%;
+    background: #fff;
+    /* max-height: 120px; */
+    padding: 15px 20px;
+    text-align: left;
+    
+}
+
+.clear{
+    clear: both;
+}
+footer{
+    display: block;
+    background: #ccc;
+    color: #555;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+@media (max-width: 700px) {
+    .container{
+        flex-direction: column;
+    }
+}
+.menu{
+    padding: 0;
+}
+.menu li{
+    border-bottom: 1px dotted #444;
+}
+.menu a{
+    display: block;
+    padding: 20px 20px;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: #000;
+}
+.form-group{
+    clear: both;
+}
+
+.judul{
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.form-group label{
+    display: inline-block;
+    padding: 150px 0;
+    width: 25%;
+    margin-top: 30px;
+    padding: 0;
+    float: left;
+    font-weight: bold;
+}
+
+.form-group .input{
+    display: inline-block;
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+input [type=radio] {
+    width: 50px;
+}
+
+#jk{
+    margin-top: 25px;
+}
+
+.tombolsimpan, .tombolreset{
+    border: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+
+.tombolsimpan{
+    background: #038ade;
+}
+
+.tombolreset{
+    background: #fb8307;
+}
+
+#keterangan{
+  margin-top: 35px;  
+}
+
+@media (max-width : 700px) {
+    .form-group label, .form-group .input {
+        width: 100%;
+    }
+}

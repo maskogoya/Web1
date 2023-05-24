@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <header>
+        Aplikai Manajemen Asrama Lanny Jaya
+    </header>
+    <div class="container">
+        <aside>
+            <ul class="menu">
+                <li><a href="dashborad.html" class="aftif">Dashborad</a></li>
+                <li><a href="anggota.html">Data Anggota</a></li>
+                <li><a href="jabatan.html">Data Pengurus</a></li>
+                <li><a href="login.html">Keluar</a></li>
+            </ul>
+        </aside>
+        <section class="main content">
+            <h2 class="judul">Tambah Anggota</h2>
+            <form method="post" action="proses.php">
+                <div class="form-group">
+                    <label for="foto">Foto</label>
+                    <div class="input">
+                        <input type="file" name="foto" id="foto">
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <div class="input"><input type="text" id="nama"></div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="jk">Jenis Kelamin</label>
+                    <input type="radio" id="jk" name="jk" value="L"> Laki-laki
+                    <input type="radio" id="jk" name="jk" value="P"> Perempuan
+                </div>
+    
+                <div class="form-group">
+                    <label for="tanggal">Tanggal</label>
+                    <div class="input"><input type="date" id="tanggal"></div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="jabatan">Jabatan</label>
+                    <div class="input">
+                        <select id="jabatan">
+                            <option value="direktur">Ketua</option>
+                            <option value="manajer">Sekretaris</option>
+                            <option value="marketing">Bendahara</option>
+                            <option value="sekretaris">koordinator Kerohanian</option>
+                            <option value="sekretaris">Koordinator Infokom</option>
+                            <option value="sekretaris">Koordinator Aset</option>
+                            <option value="sekretaris">Koordinator Kebersihan</option>
+                            <option value="sekretaris">Koordinator Minat Bakat</option>
+                            <option value="sekretaris">Koordinator Pendidikan penalaran</option>
+                            <option value="sekretaris">Koordinator keamanan</option>
+                            <option value="sekretaris">Koordinator Humas</option>
+                            <option value="sekretaris">Koordinator Komsumsi</option>
+                        </select>
+                    </div>
+                </div>
+                    <div class="form-group">
+                        <label for="label">Keterangan</label>
+                        <textarea name="keterangan" id="keterangan" cols="28" rows="7"></textarea>
+                    </div>
+                <div class="form-group">
+                    <input type="submit" value="Simpan" class="tombolsimpan">
+                    <input type="reset" value="Batal" class="tombolreset">
+                </div>
+            </form>
+        </section>
+    </div>
+    <div class="clear"></div>
+    <footer>
+         &copy; Aslan Developer By Mas Kogoya
+    </footer>
+</body>
+</html>
